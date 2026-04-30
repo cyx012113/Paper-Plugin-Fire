@@ -1,0 +1,43 @@
+# FirePlugin 2.0.0 Configuration
+
+# Worlds where player economy balances are regularly reset (supports regex/wildcard)
+economy-reset-worlds:
+  - "Lobby"
+economy-reset-interval-ticks: 1200   # 20 ticks = 1 sec, 1200 = 1 minute
+
+# Worlds where block protection (only player-placed blocks can be broken/burn/explode) is active
+block-protection-worlds:
+  - "*"  # all worlds by default
+
+# Worlds where players cannot place any blocks (requires fire.bypass.build to bypass)
+no-build-worlds:
+  - "Lobby"
+
+# Worlds where PvP is disabled
+pvp-disabled-worlds:
+  - "Lobby"
+
+# Worlds where players take zero damage (invincible)
+invincible-worlds:
+  - "Lobby"
+
+# Worlds where hunger/food saturation never drops
+saturate-worlds:
+  - "Lobby"
+
+# Worlds where falling into void instantly respawns at world spawn
+void-respawn-worlds:
+  - "*"
+
+# Anti-spam settings (chat)
+anti-spam:
+  interval-seconds: 2
+  max-messages: 1
+
+# Broadcast system
+broadcast:
+  default-credits: 3   # default credits each player receives
+
+# Invite system
+invite:
+  cooldown-seconds: 10

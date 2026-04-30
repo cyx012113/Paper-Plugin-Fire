@@ -1,0 +1,55 @@
+name: fire
+version: 2.0.0
+main: com.script.fire.FirePlugin
+api-version: 1.21
+depend: [Vault]
+author: cyx012113
+description: An advanced server utility plugin with world protection, economy, broadcast system, anti-spam, and invite features.
+
+commands:
+  broadcast:
+    aliases: [bc]
+    description: Send a server-wide broadcast message.
+    usage: /<command> <message>
+    permission: fire.broadcast.use
+  broadcastadmin:
+    aliases: [bcadmin]
+    description: Manage broadcast credits.
+    usage: /<command> <add|set|clear|check> <player> [amount]
+    permission: fire.broadcast.admin
+  invite:
+    aliases: [inv]
+    description: Invite a player to your world.
+    usage: /<command> <player|all> [world]
+    permission: fire.invite.send
+  fireadmin:
+    aliases: [fadmin]
+    description: Plugin admin commands.
+    usage: /<command> reload
+    permission: fire.admin
+
+permissions:
+  fire.bypass.clear:
+    description: Bypass economy reset in lobby worlds.
+    default: op
+  fire.bypass.block:
+    description: Bypass block protection (break any block).
+    default: op
+  fire.bypass.build:
+    description: Bypass build restrictions (place/break in restricted worlds).
+    default: op
+  fire.broadcast.use:
+    description: Use broadcast command.
+    default: true
+  fire.broadcast.admin:
+    description: Manage broadcast credits.
+    default: op
+  fire.invite.send:
+    description: Send invites to others.
+    default: true
+  fire.invite.join:
+    description: Accept teleport invites.
+    default: true
+  fire.admin:
+    description: Reload plugin configuration.
+    default: op
