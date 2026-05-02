@@ -1,6 +1,6 @@
 # 🔥 FirePlugin
 
-**Version 2.0.0** – A lightweight, high‑performance server utility plugin for Paper 1.21.11 (and similar versions).  
+**Version 2.0.0** – A lightweight, high‑performance server utility plugin for Paper 1.21+.  
 It provides world‑based economy reset, block protection, building restrictions, advanced world rules, anti‑spam, a broadcast credit system, and a clickable invite system.
 
 ---
