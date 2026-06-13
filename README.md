@@ -131,8 +131,7 @@ invite:
 
 ## 📄 License
 
-This project is licensed under the **CC BY-SA 4.0** license.  
-You are free to share, adapt, and use it, provided you give appropriate credit and distribute derivatives under the same license.
+This project is licensed under the **MIT** license.
 
 ---
 
